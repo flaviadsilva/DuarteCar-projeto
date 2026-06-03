@@ -18,8 +18,6 @@ Bem-vindo ao repositório do site institucional da **Duarte Car**, uma oficina m
 
 O projeto foi construído utilizando as seguintes tecnologias:
 
-> **Nota:** Altere esta seção para refletir o que você usou no projeto (ex: React, Tailwind, PHP, etc.).
-
 *   **HTML5** & **CSS3** - Estrutura e estilização responsiva.
 *   **JavaScript** - Validação do formulário e animações interativas.
 *   **Bootstrap / Tailwind CSS** - Framework para garantir a responsividade em dispositivos móveis.
@@ -33,4 +31,4 @@ Se você quiser rodar este projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
 ```bash
-   git clone [https://github.com/seu-usuario/duarte-car.git](https://github.com/seu-usuario/duarte-car.git)
+   git clone [https://github.com/flaviadsilva/duarte-car.git](https://github.com/flaviadsilva/duarte-car.git)
