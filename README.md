@@ -1,34 +1,36 @@
-# 🚗 Duarte Car — Website Institucional One-Page
+# 🚗 Duarte Car - Oficina Mecânica
 
-Este repositório contém o código-fonte e as especificações para o website oficial da **Duarte Car**, oficina especializada em mecânica automotiva que atua em Sapucaia do Sul - RS desde 2018.
-
-O projeto foi desenvolvido no formato **One-Page** (página única), priorizando carregamento rápido, design moderno e uma arquitetura focada em conversão direta (foco em agendamentos).
-
-> ⚠️ **Nota de Negócio Importante:** A empresa não utiliza redes sociais tradicionais. Portanto, este website funciona como a **única vitrine digital oficial** da marca na internet. Todo o tráfego é canalizado estrategicamente para o atendimento imediato via WhatsApp ou para a localização física da oficina.
+Bem-vindo ao repositório do site institucional da **Duarte Car**, uma oficina mecânica moderna focada em transparência, agilidade e excelência no cuidado automotivo. O site foi desenvolvido para apresentar os serviços da oficina, facilitar o contato dos clientes e permitir o agendamento de orçamentos online.
 
 ---
 
-## 🎨 1. Identidade Visual & Cores
+## 🚀 Funcionalidades
 
-O design do site utiliza uma estética moderna e industrial, inspirada no setor automobilístico de alta performance.
-
-### Paleta de Cores (UI Grid)
-* **Preto / Charcoal (`#0F172A`):** Aplicado em seções principais (Hero, Rodapé) e fundos escuros para transmitir robustez.
-* **Vermelho Accent (`#DC2626`):** Usado estritamente para botões de chamada para ação (CTA), links importantes e destaques.
-* **Cinza Técnico (`#64748B`):** Cor secundária para subtítulos, bordas estruturais e ícones.
-* **Branco Puro (`#FFFFFF`):** Utilizado em blocos de leitura limpa, como a seção de serviços e histórico da empresa.
-
-### Logomarca Oficial
-O projeto utiliza o arquivo de imagem **`DC-doP.jpg`**, que consiste em um emblema metálico com pistões e bielas cruzados formando um "V" com a letra "D" estilizada no topo.
-* **Aplicação:** Deve ser inserida na mesma pasta do arquivo `index.html` para renderização correta no cabeçalho.
+*   **Página Inicial (Home):** Apresentação da oficina, destaques de serviços e diferenciais da Duarte Car.
+*   **Serviços:** Listagem detalhada dos cuidados oferecidos (injeção eletrônica, freios, suspensão, motor, troca de óleo, etc.).
+*   **Agendamento Online:** Formulário simples para o cliente solicitar um orçamento ou agendar uma revisão.
+*   **Sobre Nós:** A história da mecânica, missão e valores baseados na confiança.
+*   **Contato & Localização:** Integração com Google Maps, links diretos para o WhatsApp e redes sociais.
 
 ---
 
-## 📐 2. Estrutura de Arquivos do Projeto
+## 🛠️ Tecnologias Utilizadas
 
-A estrutura do projeto é extremamente simples e leve, ideal para hospedagens rápidas (como Netlify, GitHub Pages ou Vercel):
+O projeto foi construído utilizando as seguintes tecnologias:
 
-```text
-├── index.html          # Código-fonte principal (Estrutura HTML e Estilos CSS embutidos)
-├── DC-doP.jpg          # Logomarca oficial da Duarte Car
-└── README.md           # Documentação do projeto (Este arquivo)
+> **Nota:** Altere esta seção para refletir o que você usou no projeto (ex: React, Tailwind, PHP, etc.).
+
+*   **HTML5** & **CSS3** - Estrutura e estilização responsiva.
+*   **JavaScript** - Validação do formulário e animações interativas.
+*   **Bootstrap / Tailwind CSS** - Framework para garantir a responsividade em dispositivos móveis.
+*   **Font Awesome** - Ícones modernos para a interface.
+
+---
+
+## 📦 Como Executar o Projeto
+
+Se você quiser rodar este projeto localmente, siga os passos abaixo:
+
+1. **Clone o repositório:**
+```bash
+   git clone [https://github.com/seu-usuario/duarte-car.git](https://github.com/seu-usuario/duarte-car.git)
