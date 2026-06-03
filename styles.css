@@ -1464,6 +1464,43 @@ ul, ol {
   }
 }
 
+.whatsapp-flutuante {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    
+    /* Força o alinhamento perfeito no centro */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Garante que o ícone interno (SVG) não mude de tamanho ou saia do lugar */
+.whatsapp-flutuante svg {
+    width: 35px !important;
+    height: 35px !important;
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+/* Efeito Hover */
+.whatsapp-flutuante:hover {
+    background-color: #1da33e;
+    transform: scale(1.1);
+}
+
 @media (max-width: 360px) {
   .header-name {
     font-size: 1rem;
